@@ -1,3 +1,5 @@
+### Here is the deployment Link = https://educase-assignment-ayu.netlify.app/
+
 ## Educase Coding Assignment
 
 This web application project is built using React, with a focus on user-friendly page navigation facilitated by React Router DOM. It consists of four key components:
