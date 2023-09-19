@@ -75,7 +75,7 @@ Redirect to web-browser
 
 ## Features
 
-- Privacy matters so provided a feature to hide or view password while typing.
+- Privacy matters so provided we add a important feature to hide or view password while typing.
 - Completely Responsive Web Design.
 
 
