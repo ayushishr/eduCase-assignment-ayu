@@ -1,0 +1,83 @@
+.login-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.login-container-title p {
+    font-size: 18px;
+    width: 232px;
+    font: normal normal normal 18px/26px Rubik;
+    opacity: 0.6;
+}
+
+.login-container-title h1 {
+    font-size: 28px;
+}
+
+.cutout-label-top {
+    position: relative;
+    display: flex;
+}
+
+.login-form {
+    display: flex;
+    gap: 23px;
+    flex-direction: column;
+}
+.login-btn{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-btn-valid{
+    background-color: #6C25FF;
+}
+
+label {
+    position: absolute;
+    top: -10px;
+    /* Position label at the top */
+    left: 10px;
+    /* Adjust the left position as needed */
+    background-color: #F7F8F9;
+    padding: 0 5px;
+    pointer-events: none;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+    font-size: 13px;
+    color: #6C25FF;
+    /* Label color */
+    z-index: 2;
+    /* Ensure the label is displayed above the input */
+    transition: all 0.2s;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    /* Ensure the input is below the label */
+}
+
+input:focus {
+    border-color: #007BFF;
+    /* Change input border color on focus */
+}
+
+input:focus+label {
+    top: -10px;
+    /* Move the label up to create the cutout effect */
+    padding: 0 10px;
+    /* Adjust padding for the cutout label */
+    background-color: white;
+    /* Match the input background color */
+}
